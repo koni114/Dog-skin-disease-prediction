@@ -1,0 +1,31 @@
+## 프로토타입리뷰
+
+## 1장 - 프로토타입 적용 데이터셋
+데이터셋 명 : skin-cancer-mnist-ham10000
+                  human-skin lesion 
+데이터 구성 : 사람의 몸에 난 피부병의 환부를 촬영해놓은 이미지 데이터셋
+                  총 7개의 피부병 종류로 구성
+                  데이터 수 : 10015장.
+
+nv : Melanocytic nevi, 6705개
+mel : Melanoma, 1113개
+bkl : Benign keratosis, 1099개
+bcc : Basal cell carcinoma, 514개
+akiec : Actinic Keratoses, 327개
+vasc : Vascular skin, 142개
+df : Dermatofibroma, 115개               
+
+   
+기존 강아지 피부병 데이터가 아닌 인간 피부병 데이터를 선정하여 프로토타입을 제작한 이유 : 
+	     - 현재 강아지 피부병 데이터는 매우 부족.
+                    각 피부병 별 데이터도 일관성이 있지 않음.
+                    TEST DataSet을 편성 할 수 없음
+.
+                 - 해당 데이터는 imbalanced & small data'   -> augmentation 기법 적용 
+                 - 인간의 피부병과 강아지 피부병은 어느정도 비슷한 측면이 존재
+                 - 총 label이 7개 이므로, 최종적으로 우리가 예측해야 하는 3가지 label 보다 더 많음.
+
+
+                 
+
+                  

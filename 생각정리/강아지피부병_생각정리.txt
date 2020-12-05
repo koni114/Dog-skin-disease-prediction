@@ -1,0 +1,9 @@
+## 강아지 피부병 분류 model 제작.
+
+우선 ,
+ -세균성 피부질병(bacterial skin diseases)  ,   
+- 곰팡이성 피부질병(fungal skin diseases),
+-기생충성 피부질병(parasitic skin diseases)
+3가지 피부병에 대한 이미지를 매칭하고 고객들이 촬용하여 올려 놓는 이미지도 추가로 사용할 수 있는 데이터로 만들고자 함.
+
+
